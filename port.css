@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Prata&display=swap');
+body{
+    background-color: black;
+    color: grey;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.morgan{
+    display: none;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 150px;
+    /* margin-bottom: 50px; */
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+    float: left;
+    margin-right: 20px;
+    font-family: 'inter';
+    font-weight: 800;   
+    display: block;
+}
+a:hover{
+    background-color: white;
+    transition: 0.7s;
+    border: solid 3px black;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+button{
+    background-color: gold;
+    color: black;
+    height: 40px;
+    width: 120px;
+    font-family: 'prata';
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    transition: 0.7sec;
+}
+.top h3{
+    font-family: 'prata';
+    color: white;
+    font-weight: 400;
+}
+.inter{
+    padding: 50px;
+    margin-right: 150px;
+    padding-top: 0;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+.inter h1{
+    color: white;
+    font-family: 'prata';
+    font-size: 50px;
+    font-weight: 400;
+}
+.inter p{
+    font-family: 'inter';
+    font-weight: 400;
+}
+.spence{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 150px;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 0;
+}
+#arrow{
+    width: 20px;
+    height: 30px;
+}
+.specyelp{
+    display: flex;
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 150px;
+    justify-content: space-between;
+}
+/* #spense h2{
+    color: white;
+    font-family: 'prata';
+    font-weight: 400;
+    font-size: x-large;
+    top: 10px;
+} */
+.specyelp h2{
+    color: white;
+    margin-top: 5px;
+    font-family: 'prata';
+    font-weight: 400;
+    font-size: x-large;
+    top: 10px;
+}
+.specyelp p{
+    font-size: medium;
+    font-weight: 400;
+    font-family: 'inter';
+    margin-top: 5px;
+}
+.tax{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 150px;
+}
+section{
+    background-color: rgb(60, 58, 58);
+}
+section h1{
+    font-family: 'prata';
+    color: white;
+    font-weight: 400;
+    font-size: xx-large;
+}
+section p{
+    font-family: 'inter';
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+article{
+    margin-left: 120px;
+    margin-right: 150px;
+    padding: 50px;
+    
+}
+article h1{
+    font-family: 'prata';
+    color: white;
+    font-weight: 400;
+    font-size: xx-large;
+}
+article p{
+    font-family: 'inter';
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: rgb(60, 58, 58);
+   
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 150px;
+}
+.foot h3{
+    color: white;
+    font-family: 'prata';
+    font-size: large;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 380px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Prata&display=swap');
+body{
+background-color: black;
+color: grey;
+/* padding: 30px; */
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.top{
+    margin: 0;
+    padding: 20px;
+}
+.inter{
+    margin: 0;
+    padding: 20px;
+}
+.top h3{
+font-family: 'prata';
+color: white;
+font-weight: 400;
+}
+.inter h1{
+color: white;
+font-family:'prata';
+font-size: x-large;
+font-weight: 200;}
+.inter p{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: x-small;
+}
+#arrow{
+    width: 20px;
+    height: 30px;
+}
+.spence{
+    display: none;
+}
+.morgan{
+    display: block;
+    padding: 25px;
+    margin: 0;
+}
+.morgan div{
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.inline1{
+    display: inline;
+}
+.hide{
+    display: none;
+}
+.specyelp{
+    display: block;
+    margin: 0;
+    padding: 25px;
+}
+#joy{
+    width: 320px;
+}
+.tax{
+    display: block;
+    margin: 0;
+    padding: 25px;
+    margin-top: 20px;
+}
+article{
+    margin: 0;
+    padding: 25px;
+}
+.foot{
+    display: flex;
+    padding: 25px;
+    margin: 0;
+}
+.specyelp p{
+    font-size: x-small;
+    font-weight: 400;
+    font-family: 'inter';
+    margin-top: 5px;
+    padding-top:10px;
+}
+#yelp{
+    margin-top: 50px;
+}
+article p{
+    font-size: x-small;
+}
+section p{
+    font-size: x-small;
+}
+#devop{
+    margin-top: 50px;
+}
+section h1{
+    font-size: x-large;
+}
+}
